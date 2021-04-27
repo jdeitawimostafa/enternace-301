@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header>
+        <img id="headimg" src="/img/maybelline.jpg" alt="">
+        <div class="classa">
+        <a href="/">Home</a>
+        <a href="/getall">All products</a>
+        <a href="/getdatabase">My products</a>
+    </div>
+    </header>
+    <section>
+        <form id="homeform" action="/getdata">
+            <input type="text" name="search" placeholder="Add Brand Name" >
+            <input type="text" name="greater" placeholder="price greater than">
+            <input type="text" name="less" placeholder="price lower than">
+            <button>Search</button>
+        </form>
+    </section>
+</body>
+</html>
